@@ -1,0 +1,98 @@
+@media only screen and (min-width: 600px){
+
+    body{
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        
+    }
+    #app{
+        background-image: url("/static/images/stage.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center; 
+        width: 100%;
+        height: 100vh;
+    }
+
+
+    .box{
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+        color: black;
+    }
+    .filler{
+        width: 100vw;
+        height: 40vh;
+        background-attachment: fixed;
+        background-color: antiquewhite;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .services{
+        width: 50vw;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        margin-left: 25%;
+    }
+    .small-box{
+        background-color: antiquewhite;
+        opacity: .9;
+        color: black;
+        border: 2px solid greenyellow;
+        width: 50%;
+        height: 50%;
+        margin: 20px;
+    }
+    .small-box1{
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    }
+    .small-box2{
+        grid-column: 2 / -1;
+        grid-row: 2 / -1;
+    }
+    .small-box3{
+        grid-column: 1 / -1;
+        grid-row: 2 / -1;
+    }
+    .small-box4{
+        grid-column: 2 / -1;
+        grid-row: 1 / -1;
+    }
+
+    .backImage1{
+        background-image: url("/static/images/stage.png"); 
+        color: white;
+    }
+    .backImage2{
+        background-image: url("/static/images/stage.png");
+    }
+    .backImage3{
+        background-image: url("/static/images/band.jpg");
+        
+    }
+    .backImage4{
+        background-image: url("/static/images/band.jpg");
+        
+    }
+    .backImage5{
+        background-image: url("/static/images/concert.jpg"); 
+    }
+    .backImage6{
+        background-image: url("/static/images/concert.jpg"); 
+    }
+    h2{
+        margin: -10px 0 20px 0;
+    }
+
+
+}
