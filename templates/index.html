@@ -4,63 +4,86 @@
             <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="/static/main-style.css">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
         <div id="app">
-            <div>
-                <div class="site-title">Finland</div>
-                <ul>
-                    <li><a href="/archive">Archive</a></li>
-                    <li><a href="/events">Events</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                <ul>
-            </div>
             <div class= "box backImage1">
-                <div class="services">
-                <p class="small-box small-box1">Box 1</p>
-                <p class="small-box small-box2">Box 2</p>
-                <p class="small-box small-box3">Box 3</p>
-                <p class="small-box small-box4">Box 4</p>
-                </div>
             </div>  
-            
-            <div class="filler">
-                <h2> What is Lorem Ipsum?</h2>
-                <p> // par1 //</p>
-                <h4>// par2 //</h4>
+            <div class="textBox textBox1">
+                <div class="filler1">
+                    <p> // par1 //</p>
+                    <h4>// par2 //</h4>
+                </div>
             </div>
 
             <div class="box backImage2"></div>
             
-            <div class="filler">
-                <h2> What is Lorem Ipsum?</h2>
-                <p> // par1 //</p>
-                <h4>// par2 //</h4>
+            <div class="textBox textBox2">
+                <div class="filler filler2">
+                    <h2> What is Lorem Ipsum?</h2>
+                    <p> // par1 //</p>
+                    <h4>// par2 //</h4>
+                </div>
             </div>
+
+            <div class="turners">
+                <div class="icons">
+                    <p class="icon" @mouseover="onHover1"
+                                    @mouseleave="onLeave1" ref="icon1"> Icon 1</p>
+                    <p class="icon" @mouseover="onHover2"
+                                    @mouseleave="onLeave2" ref="icon2"> Icon 2</p>
+                    <p class="icon" @mouseover="onHover3"
+                                    @mouseleave="onLeave3" ref="icon3"> Icon 3</p>
+                    <p class="icon" @mouseover="onHover4" 
+                                    @mouseleave="onLeave4" ref="icon4"> Icon 4</p>
+                </div>
+
+            </div>
+            
             
             <div class="box backImage3">  
             </div>
 
-            <div class="filler">
-                <h2> What is Lorem Ipsum?</h2>
-                <p> // par1 //</p>
-                <h4>// par2 //</h4>    
+            <div class="textBox textBox3"> 
+                <div class="filler filler3">
+                    <p> // par1 //</p>
+                    <h4>// par2 //</h4>    
+                </div>    
             </div>
 
             <div class="box backImage4"></div>
 
-            <div class="filler">
-                <h2> What is Lorem Ipsum?</h2>
-                <p> // par1 //</p>
-                <h4>// par2 //</h4>
+            <div class="textBox textBox4">
+                <div class="filler filler4">
+                    
+                    <input type="text" v-model="userCity">
+
+                    <button @click="getLocation"> Get It</button>
+
+
+                    <a :href="userCity"><button > Find Venues</button></a> 
+                    <div class="concerts" v-if="locationEnabled">
+                                
+                                <p> // lat // </p>
+                                <p> // lon // </p>
+                                <a v-bind:href="mapUrl"> Open in Maps </a>
+                            
+                    </div>
+                </div>
             </div>
+
             <div class="box backImage5"></div>
-            <div class="filler">
-                <h2> What is Lorem Ipsum?</h2>
-                <p> // par1 //</p>
-                <h4>// par2 //</h4>        
+            
+            <div class="textBox textBox5">
+                <div class="filler filler5">
+                    <p> // par1 //</p>
+                    <h4>// par2 //</h4>        
+                </div>
             </div>
+
+
             <div class="box backImage6"></div>
               
         </div>

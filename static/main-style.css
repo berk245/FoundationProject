@@ -4,7 +4,8 @@
         height: 100vh;
         width: 100vw;
         text-align: center;
-        
+        font-family: 'Fjalla One', sans-serif;
+    
     }
     #app{
         background-image: url("/static/images/stage.png");
@@ -14,84 +15,167 @@
         text-align: center; 
         width: 100%;
         height: 100vh;
+        text-align: center;
     }
-
-
+    .icons{
+        height: 300px;
+        width: 260px;
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap;
+        color: white;
+    }
+    .icon{
+        width: 50%;
+        margin: 5px;
+        padding: 5px;
+        background-color: black;
+    }
+    
+    .icon:hover {
+        animation:  rotate-btn .5s linear 1;
+      }
+      
+      @keyframes rotate-btn {
+        0% {
+          transform: rotateY(0deg)
+        }
+        100% {
+          transform: rotateY(-180deg);
+        }
+      }
+    
     .box{
-        width: 100vw;
-        height: 100vh;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         text-align: center;
         color: black;
     }
-    .filler{
-        width: 100vw;
-        height: 40vh;
+    .textBox{
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-color: antiquewhite;
+        background-size: cover; 
         background-size: cover;
+        text-align: center;
+        color: white;
+    }
+    .textBox1{
+        background-image: url("/static/images/stage.png");
+    }
+    .textBox2{
+        background-image: url("/static/images/stage.png");
+    }
+    .textBox3{
+        background-image: url("/static/images/band.jpg");
+    }
+    .textBox4{
+        background-image: url("/static/images/stage.png");
+
+    }
+    .textBox5{
+        background-image: url("/static/images/concert.jpg");
+    }
+
+
+    .filler1{
+        background-color:black;
+        margin-left: auto;
+        margin-right: 25px;
+        width: 40vw;
+        height: 80vh;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        border-left: solid 5px darkred;
+        border-radius: 10%;
+
+    }
+    .filler2{
+        background-attachment: fixed;
+        background-color: black;
+        width: 100vw;
+        height: 70vh;
+        border-top: solid 10px darkred;
+    }
+    .filler3{
+        background-color:black;
+        margin-left: auto;
+        width: 40vw;
+        height: 70vh;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        border-left: solid 10px goldenrod;
+        border-radius: 10%;
+        
+    }
+    .filler4{
+        background-attachment: fixed;
+        background-color: black;
+        width: 100vw;
+        height: 60vh;
+        border-top: solid 10px goldenrod;
+    }
+    .filler5{
+        background-color:black;
+        margin-left: auto;
+        width: 40vw;
+        height: 70vh;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        border-left: solid 10px #0869A2;
+        border-radius: 10%;
+    }
+
+    .filler6{
+        background-attachment: fixed;
+        background-color: black;
+        width: 100vw;
+        height: 60vh;
+        border-top: solid 10px goldenrod;
+    }
+    
+    .turners{
+        background-attachment: fixed;
+        background-color: darkgoldenrod;
+        width: 100vw;
+        height: 70vh;
         text-align: center;
     }
 
-    .services{
-        width: 50vw;
-        height: 50vh;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-        margin-left: 25%;
-    }
-    .small-box{
-        background-color: antiquewhite;
-        opacity: .9;
-        color: black;
-        border: 2px solid greenyellow;
-        width: 50%;
-        height: 50%;
-        margin: 20px;
-    }
-    .small-box1{
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-    }
-    .small-box2{
-        grid-column: 2 / -1;
-        grid-row: 2 / -1;
-    }
-    .small-box3{
-        grid-column: 1 / -1;
-        grid-row: 2 / -1;
-    }
-    .small-box4{
-        grid-column: 2 / -1;
-        grid-row: 1 / -1;
-    }
 
     .backImage1{
+        width: 100vw;
+        height: 100vh;
         background-image: url("/static/images/stage.png"); 
         color: white;
     }
     .backImage2{
+        width: 100vw;
+        height: 50vh;
         background-image: url("/static/images/stage.png");
     }
     .backImage3{
+        width: 100vw;
+        height: 50vh;
         background-image: url("/static/images/band.jpg");
         
     }
     .backImage4{
+        width: 100vw;
+        height: 60vh;
         background-image: url("/static/images/band.jpg");
         
     }
     .backImage5{
+        width: 100vw;
+        height: 70vh;
         background-image: url("/static/images/concert.jpg"); 
     }
     .backImage6{
+        width: 100vw;
+        height: 20vh;
         background-image: url("/static/images/concert.jpg"); 
     }
     h2{
-        margin: -10px 0 20px 0;
+        padding-top: 20px;
     }
 
 
