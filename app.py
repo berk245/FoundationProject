@@ -57,4 +57,4 @@ def searchVenues3():
 
 
 if __name__ == "__main__":
-    app.run(port='23456')
+    app.run(port='80')
