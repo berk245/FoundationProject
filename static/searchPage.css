@@ -1,0 +1,35 @@
+body{
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-image: url("/static/images/band.jpg");
+}
+
+.results{
+    margin-top: 30vh;
+    background-attachment: fixed;
+    background-color: black;
+    width: 100vw;
+    height: 60vh;
+    border-top: solid 10px goldenrod;
+}
+.icons{
+    height: 300px;
+    width: 460px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.icon{
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+}

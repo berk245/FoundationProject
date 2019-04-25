@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Search </title>
+        <link rel="stylesheet" href="/static/searchPage.css">
+    </head>
+    <body>
+        <div class="icons">
+            {% for venue in output %}
+                <div class="icon">
+                    {% if venue.city == 'Berlin' %}
+                        <p> {{ venue.name }}, {{venue.kiez}} </p>
+                        <a href="{{ venue.link }}" target="_blank"> <button> See It on Map</button></a>
+                    {%endif%}
+                </div>
+            {% endfor %}
+        </div>
+        <br>
+        <br>
+        <a href="/"> <button> Go back </button> </a>
+        
+    </body>
+</html>
+

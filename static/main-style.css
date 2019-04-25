@@ -8,7 +8,7 @@
     
     }
     #app{
-        background-image: url("/static/images/stage.png");
+        background-image: url("/static/images/band.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -62,16 +62,16 @@
         color: white;
     }
     .textBox1{
-        background-image: url("/static/images/stage.png");
+        background-image: url("/static/images/band.jpg");
     }
     .textBox2{
-        background-image: url("/static/images/stage.png");
+        background-image: url("/static/images/band.jpg");
     }
     .textBox3{
         background-image: url("/static/images/band.jpg");
     }
     .textBox4{
-        background-image: url("/static/images/stage.png");
+        background-image: url("/static/images/band.jpg");
 
     }
     .textBox5{
@@ -86,7 +86,7 @@
         width: 40vw;
         height: 80vh;
         box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
-        border-left: solid 5px darkred;
+        border-left: solid 5px goldenrod;
         border-radius: 10%;
 
     }
@@ -95,7 +95,7 @@
         background-color: black;
         width: 100vw;
         height: 70vh;
-        border-top: solid 10px darkred;
+        border-top: solid 10px goldenrod;
     }
     .filler3{
         background-color:black;
@@ -113,6 +113,9 @@
         width: 100vw;
         height: 60vh;
         border-top: solid 10px goldenrod;
+    }
+    .filler4 > input{
+        color: black;
     }
     .filler5{
         background-color:black;
@@ -144,13 +147,18 @@
     .backImage1{
         width: 100vw;
         height: 100vh;
-        background-image: url("/static/images/stage.png"); 
+        background-image: url("/static/images/band.jpg"); 
         color: white;
     }
     .backImage2{
         width: 100vw;
         height: 50vh;
-        background-image: url("/static/images/stage.png");
+        background-image: url("/static/images/band.jpg");
+    }
+    .backImage7{
+        width: 100vw;
+        height: 20vh;
+        background-image: url("/static/images/band.jpg");
     }
     .backImage3{
         width: 100vw;
