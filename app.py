@@ -58,3 +58,4 @@ def searchVenues3():
 
 if __name__ == "__main__":
     app.run(port='80')
+    ADDRESS= '0.0.0.0'
