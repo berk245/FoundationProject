@@ -21,21 +21,19 @@
         height: 200vh;
         width: 100vw;
         background-color: black;
-        text-align: center; 
-        width: 100%;
+        width: 100vw;
         text-align: center;
-        position: relative;
     }
     .threeX{
-        background-color: black;
         display: inline-block;
-
+        margin-left: -350px;
+        height: 200vh;
     }
     .shape{
         margin-top: 10vh;
-        margin-left:15vw;
-        height: 200px; 
-        width: 40px;
+        margin-left:163px;
+        height: 400px; 
+        width: 80px;
         background-color: black;
         transform: rotate(45deg);
         position: absolute;
@@ -43,26 +41,27 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        
          
       }
       .shape2 {
         margin-top: 10vh;  
-        margin-left:15vw;
-        height: 200px; 
-        width: 40px;
+        margin-left:163px;
+        height: 400px; 
+        width: 80px;
         background-color: black;
         transform: rotate(-45deg);
         position: absolute;
         background-image: url("/static/images/band.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: cover; 
       }
       .side-shape{
         margin-top: 10vh;
         margin-left:275px;
-        height: 200px; 
-        width: 40px;
+        height: 400px; 
+        width: 80px;
         background-color: black;
         transform: rotate(45deg);
         position: absolute;
@@ -74,15 +73,15 @@
      .side-shape2 {
         margin-top: 10vh;
         margin-left:275px;
-        height: 200px; 
-        width: 40px;
+        height: 400px; 
+        width: 80px;
         background-color: black;
         transform: rotate(-45deg);
         position: absolute;
         background-image: url("/static/images/band.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;  
+        background-size: cover; 
      }
     .icons{
         height: 300px;
@@ -129,9 +128,6 @@
         color: white;
         background-image: url("/static/images/band.jpg");
     }
-    .textBox2{
-        background-image: url("/static/images/concert.jpg");
-    }
 
 
     .filler1{
@@ -142,7 +138,6 @@
         height: 80vh;
         box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
         border-left: solid 5px goldenrod;
-        border-radius: 10%;
 
     }
     .filler2{
@@ -232,11 +227,7 @@
         height: 70vh;
         background-image: url("/static/images/concert.jpg"); 
     }
-    .backImage6{
-        width: 100vw;
-        height: 20vh;
-        background-image: url("/static/images/concert.jpg"); 
-    }
+
     h2{
         padding-top: 20px;
     }

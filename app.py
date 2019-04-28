@@ -1,9 +1,7 @@
 from flask import Flask, render_template
 from flask_pymongo  import PyMongo
-import os
 import jinja2
-import json
-import ast
+
 
 app = Flask(__name__)
 app.config['MONGO_DBNAME'] = "test"

@@ -11,13 +11,13 @@
             <div class= "box backImage1">
                 <div class="landing">
                     <div class="threeX">
-                        <div class="side-shape" style="margin-left: 50px" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 +'vh'}"></div>
-                        <div class="side-shape2" style="margin-left: 50px" v-bind:style=" {'margin-top': 10  + scrollPosition/4.75 +'vh'}"></div>
-                        <div class="shape" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 163 + scrollPosition/12 + 'px' }"></div>
-                        <div class="shape2" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 163 + scrollPosition/12 + 'px'}"></div>
-                        <div class="side-shape" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 275 + scrollPosition/6 + 'px'}"></div>
-                        <div class="side-shape2" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 275 + scrollPosition/6 + 'px'}"></div>
-                    </div>   
+                            <div class="side-shape" style="margin-left: -65px" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 +'vh','margin-left': -65 - scrollPosition/5.5 + 'px'}"></div>
+                            <div class="side-shape2" style="margin-left: -65px" v-bind:style=" {'margin-top': 10  + scrollPosition/4.75 +'vh','margin-left': -65 - scrollPosition/5.5 + 'px'}"></div>
+                            <div class="shape" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh' }"></div>
+                            <div class="shape2" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh'}"></div>
+                            <div class="side-shape" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 390 + scrollPosition/5.5 + 'px'}"></div>
+                            <div class="side-shape2" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 390 + scrollPosition/5.5 + 'px'}"></div>
+                    </div>
                 </div>
             </div>  
 
@@ -52,7 +52,6 @@
                     <p class="icon" @mouseover="onHover4" 
                                     @mouseleave="onLeave4" ref="icon4"> Icon 4</p>
                 </div>
-
             </div>
             
             
@@ -70,36 +69,13 @@
 
             <div class="textBox textBox4">
                 <div class="filler filler4">
-                    
+                    <h1> Type in your city to see the venues that host local bands!</h1>
                     <input type="text" v-model="userCity">
-
-                    <button @click="getLocation"> Get It</button>
-
-
-                    <a :href="userCity"><button > Find Venues</button></a> 
-                    <div class="concerts" v-if="locationEnabled">
-                                
-                                <p> // lat // </p>
-                                <p> // lon // </p>
-                                <a v-bind:href="mapUrl"> Open in Maps </a>
-                            
-                    </div>
+                    <a :href="userCity"><button > Find Venues</button></a>                
+                </div>
                 </div>
             </div>
 
-            <div class="box backImage5"></div>
-            
-            <div class="textBox textBox2">
-                <div class="filler filler5">
-                    <p> // par1 //</p>
-                    <h4>// par2 //</h4>        
-                </div>
-            </div>
-
-
-            <div class="box backImage6"></div>
-              
-        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
         <script src="/static/main-vue.js"></script>
