@@ -5,14 +5,25 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="/static/main-style.css">
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
         <div id="app">
             <div class= "box backImage1">
+                <div class="landing">
+                    <div class="threeX">
+                        <div class="side-shape" style="margin-left: 50px" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 +'vh'}"></div>
+                        <div class="side-shape2" style="margin-left: 50px" v-bind:style=" {'margin-top': 10  + scrollPosition/4.75 +'vh'}"></div>
+                        <div class="shape" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 163 + scrollPosition/12 + 'px' }"></div>
+                        <div class="shape2" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 163 + scrollPosition/12 + 'px'}"></div>
+                        <div class="side-shape" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 275 + scrollPosition/6 + 'px'}"></div>
+                        <div class="side-shape2" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 + 'vh', 'margin-left': 275 + scrollPosition/6 + 'px'}"></div>
+                    </div>   
+                </div>
             </div>  
-            <div class="textBox textBox1">
+
+            <div class="textBox">
                 <div class="filler1">
+                    <p>//scrollPosition//</p>
                     <p> // par1 //</p>
                     <h4>// par2 //</h4>
                 </div>
@@ -20,7 +31,7 @@
 
             <div class="box backImage2"></div>
             
-            <div class="textBox textBox2">
+            <div class="textBox">
                 <div class="filler filler2">
                     <h2> What is Lorem Ipsum?</h2>
                     <p> // par1 //</p>
@@ -48,7 +59,7 @@
             <div class="box backImage3">  
             </div>
 
-            <div class="textBox textBox3"> 
+            <div class="textBox"> 
                 <div class="filler filler3">
                     <p> // par1 //</p>
                     <h4>// par2 //</h4>    
@@ -78,7 +89,7 @@
 
             <div class="box backImage5"></div>
             
-            <div class="textBox textBox5">
+            <div class="textBox textBox2">
                 <div class="filler filler5">
                     <p> // par1 //</p>
                     <h4>// par2 //</h4>        

@@ -10,6 +10,8 @@ new Vue({
         mapUrl: "",
         locationEnabled: false,
         userCity: "",
+        scrollPosition: "",
+        dynamicTopMargin: 10  + this.scrollPosition/4.75
       },     
     methods: {          
       onHover1(){
@@ -56,5 +58,16 @@ new Vue({
                 console.log(location)
             })
          },
-      }  
+         updateScroll() {
+          if(this.scrollPosition < 667){
+              this.scrollPosition = window.scrollY;
+          }
+              
+        }
+      },
+      mounted() {
+          window.addEventListener('scroll', this.updateScroll);
+        
+        
+      }
 })
