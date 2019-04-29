@@ -34,6 +34,12 @@ new Vue({
       onLeave4(){
         this.$refs.icon4.innerText = "Icon 4";
         },
+      onHover5(){
+        this.$refs.icon5.innerText = "This is the inner text";
+      },
+      onLeave5(){
+        this.$refs.icon5.innerText = "Icon 5";
+        },
 
       updateScroll() {
         if(this.scrollPosition < 630){
