@@ -8,7 +8,7 @@
     </head>
     <body>
         <div id="app">
-            <div class= "box backImage1">
+            <div class= "box backImage1" style="height: 200vh">
                 <div class="landing">
                     <div class="threeX">
                             <div class="side-shape" style="margin-left: -65px" v-bind:style=" {'margin-top': 10 + scrollPosition/4.75 +'vh','margin-left': -65 - scrollPosition/5.5 + 'px'}"></div>
@@ -21,9 +21,8 @@
                 </div>
             </div>  
 
-            <div class="textBox">
+            <div class="textBox backImage1">
                 <div class="filler1">
-                    <p>//scrollPosition//</p>
                     <p> // par1 //</p>
                     <h4>// par2 //</h4>
                 </div>
@@ -33,51 +32,130 @@
             
             <div class="textBox">
                 <div class="filler filler2">
-                    <h2> What is Lorem Ipsum?</h2>
                     <p> // par1 //</p>
                     <h4>// par2 //</h4>
                 </div>
             </div>
-
-            <div class="box backImage7"></div>
-
-            <div class="turners">
-                <div class="icons">
-                    <p class="icon" @mouseover="onHover1"
-                                    @mouseleave="onLeave1" ref="icon1"> Icon 1</p>
-                    <p class="icon" @mouseover="onHover2"
-                                    @mouseleave="onLeave2" ref="icon2"> Icon 2</p>
-                    <p class="icon" @mouseover="onHover3"
-                                    @mouseleave="onLeave3" ref="icon3"> Icon 3</p>
-                    <p class="icon" @mouseover="onHover4" 
-                                    @mouseleave="onLeave4" ref="icon4"> Icon 4</p>
-                </div>
-            </div>
-            
-            
+                       
             <div class="box backImage3">  
             </div>
 
-            <div class="textBox"> 
+            <div class="textBox backImage3"> 
                 <div class="filler filler3">
                     <p> // par1 //</p>
                     <h4>// par2 //</h4>    
                 </div>    
             </div>
+            <div class="box backImage3"></div>
 
-            <div class="box backImage4"></div>
-
-            <div class="textBox textBox4">
-                <div class="filler filler4">
-                    <h1> Type in your city to see the venues that host local bands!</h1>
-                    <input type="text" v-model="userCity">
-                    <a :href="userCity"><button > Find Venues</button></a>                
+            <div class="textBox">
+                <div class="box backImage4">
+                    <div class="filler filler2">
+                        <p> // par1 //</p>
+                        <h4>// par2 //</h4>
+                    </div>
+            </div>    
                 </div>
-                </div>
-            </div>
-
-
+                <div class="box backImage4"></div>
+                <div class="textBox backImage4"> 
+                        <div class="filler filler3">
+                            <p> // par1 //</p>
+                            <h4>// par2 //</h4>    
+                        </div>    
+                    </div>
+                <div class="box backImage4"> </div>
+            
+            <div class="textBox">
+                    <div class="box backImage5">
+                        <div class="filler filler2">
+                            <p> // par1 //</p>
+                            <h4>// par2 //</h4>
+                        </div>
+                    </div>
+                </div>    
+                    <div class="box backImage5"></div>
+                    <div class="textBox backImage5"> 
+                            <div class="filler filler3">
+                                <p> // par1 //</p>
+                                <h4>// par2 //</h4>    
+                            </div>    
+                        </div>
+                <div class="box backImage5"> </div>   
+                
+                <div class="textBox">
+                    <div class="box backImage6">
+                        <div class="filler filler2">
+                            <p> // par1 //</p>
+                            <h4>// par2 //</h4>
+                        </div>
+                    </div>
+                </div>    
+                    <div class="box backImage6"></div>
+                    <div class="textBox backImage6"> 
+                            <div class="filler filler2" style="height: 90vh">
+                                <h1> Hover on the Names to See the Average Price of Each Item</h1>
+                                <div class="iconBox">
+                                    <div class="icons">
+                                        <img src="static\images\e-guitar.jpg" alt="">
+                                        <img src="static\images\bass-guitar.jpg" alt="">
+                                        <img src="static\images\amps.jpg" alt="">
+                                        <img src="static\images\drum-kit.png" alt="">
+                                        <img src="static\images\other-stuff.jpg" alt="">
+                                        <p class="icon" @mouseover="onHover1" @mouseleave="onLeave1" ref="icon1"> Icon 1</p>
+                                        <p class="icon" @mouseover="onHover2" @mouseleave="onLeave2" ref="icon2"> Icon 2</p>
+                                        <p class="icon" @mouseover="onHover3" @mouseleave="onLeave3" ref="icon3"> Icon 3</p>
+                                        <p class="icon" @mouseover="onHover4" @mouseleave="onLeave4" ref="icon4"> Icon 4</p>
+                                        <p class="icon" @mouseover="onHover4" @mouseleave="onLeave4" ref="icon4"> Icon 4</p>
+                                    </div>
+                                </div>    
+                            </div>
+                    </div>    
+                <div class="box backImage6"> </div>               
+            
+                <div class="textBox">
+                    <div class="box backImage7">
+                        <div class="filler filler2">
+                            <p> // par1 //</p>
+                            <h4>// par2 //</h4>
+                        </div>
+                    </div>
+                </div>   
+                    <div class="box backImage7"></div>
+                    <div class="textBox backImage7"> 
+                        <div class="filler filler3">
+                            <p> // par1 //</p>
+                            <h4>// par2 //</h4>    
+                        </div>    
+                    </div>
+                <div class="box backImage7"> </div>
+                
+                <div class="textBox">
+                        <div class="box backImage8">
+                            <div class="filler filler2">
+                                <p> // par1 //</p>
+                                <h4>// par2 //</h4>
+                            </div>
+                        </div>
+                        <div class="box backImage8"></div>
+                        <div class="textBox backImage8"> 
+                            <div class="filler filler3">
+                                <p> // par1 //</p>
+                                <h4>// par2 //</h4>    
+                            </div>    
+                        </div>
+                    </div>    
+                    <div class="box backImage8"> </div>  
+                    
+                <div class="textBox textBox4">
+                    <div class="filler filler4">
+                        <h1> Type in your city to see the venues that host local bands!</h1>
+                        <input type="text" v-model="userCity">
+                        <a :href="userCity"><button> Find Venues </button></a>                
+                    </div>
+                </div>  
+            </div>                             
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
         <script src="/static/main-vue.js"></script>
+
     </body>
 </html>

@@ -83,20 +83,27 @@
         background-attachment: fixed;
         background-size: cover; 
      }
-    .icons{
-        height: 300px;
-        width: 260px;
-        display: flex;
-        justify-content: space-around;
-        align-items: stretch;
-        flex-wrap: wrap;
-        color: white;
-    }
+     .iconBox{
+         margin-left: 15vw;
+         text-align: center;
+         display: flex;
+         flex-direction: row; 
+         flex-wrap: wrap;
+         width: 1110px;
+         align-items: center;
+     }
+     .icons > img{
+        width: 200px;
+        height: 200px;
+     }
+
     .icon{
-        width: 50%;
-        margin: 5px;
+        width: 180px;
+        height: 100px;
+        margin: 10px;
         padding: 5px;
         background-color: black;
+        display: inline-block;
     }
     
     .icon:hover {
@@ -126,10 +133,11 @@
         background-size: cover;
         text-align: center;
         color: white;
-        background-image: url("/static/images/band.jpg");
     }
 
-
+    .filler{
+        padding: 30px;
+    }
     .filler1{
         background-color:black;
         margin-left: auto;
@@ -138,6 +146,7 @@
         height: 80vh;
         box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
         border-left: solid 5px goldenrod;
+        text-align: center;
 
     }
     .filler2{
@@ -184,19 +193,11 @@
         height: 60vh;
         border-top: solid 10px goldenrod;
     }
-    
-    .turners{
-        background-attachment: fixed;
-        background-color: darkgoldenrod;
-        width: 100vw;
-        height: 70vh;
-        text-align: center;
-    }
 
 
     .backImage1{
         width: 100vw;
-        height: 200vh;
+        height: 100vh;
         background-image: url("/static/images/band.jpg"); 
         color: white;
     }
@@ -205,29 +206,38 @@
         height: 50vh;
         background-image: url("/static/images/band.jpg");
     }
-    .backImage7{
-        width: 100vw;
-        height: 20vh;
-        background-image: url("/static/images/band.jpg");
-    }
     .backImage3{
         width: 100vw;
         height: 50vh;
-        background-image: url("/static/images/band.jpg");
+        background-image: url("/static/images/guitar-player.jpg");
         
     }
     .backImage4{
         width: 100vw;
-        height: 60vh;
-        background-image: url("/static/images/band.jpg");
+        height: 50vh;
+        background-image: url("/static/images/small-gig.jpg");
         
     }
     .backImage5{
         width: 100vw;
-        height: 70vh;
-        background-image: url("/static/images/concert.jpg"); 
+        height: 50vh;
+        background-image: url("/static/images/Pirate_Studios_Leicester-Rehearsal_room.jpg"); 
     }
-
+    .backImage6{
+        width: 100vw;
+        height: 50vh;
+        background-image: url("/static/images/gig-setup.jpg"); 
+    }
+    .backImage7{
+        width: 100vw;
+        height: 50vh;
+        background-image: url("/static/images/small-venue.jpg");
+    }
+    .backImage8{
+        width: 100vw;
+        height: 50vh;
+        background-image: url("/static/images/nsync2.jpg"); 
+    }
     h2{
         padding-top: 20px;
     }
