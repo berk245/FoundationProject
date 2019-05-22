@@ -1,4 +1,4 @@
-A template ful-stack Website for the Foundations Semester Project in CODE University of Applied Sciences by Berk Özzambak.
+A template full-stack Website for the Foundations Semester Project in CODE University of Applied Sciences by Berk Özzambak.
 
 Technologies used:
 
